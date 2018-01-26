@@ -1,0 +1,57 @@
+page-home {
+.scroll{
+  height: 100%;
+}
+}
+#map{
+  width: 100%;
+  height:100%;
+}
+
+ion-content {
+  background: url(../assets/imgs/NYCgrandcentral.JPG) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .scroll {
+    height: 100%;
+  }
+
+  #map {
+    width: 100%;
+    height: 50%;
+  }
+}
+.row{
+  align-content: center;
+  align-items: center;
+  justify-content:center;
+}
+h3{
+  color: #ffffff;
+  text-align: center;
+  text-shadow: #2d2d2d;
+  font-stretch: extra-expanded;
+  max-font-size: 3em;
+  min-font-size: 2em;
+  font-size: 2.2em;
+  font-size-adjust: inherit;
+}
+
+p {
+  color: #ffffff;
+  font-stretch: semi-expanded;
+  text-align: center;
+  font-size: 2em;
+  font-size-adjust: inherit;
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 900;
+  text-shadow: 5px 5px 5px black;
+}
+
+
+
+
